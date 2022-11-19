@@ -8,7 +8,7 @@ import pickle
 import cv2
 import os
 
-# our images are located in the dataset folder
+# our images are located in the dataset folder 
 print("[INFO] start processing faces...")
 imagePaths = list(paths.list_images("dataset"))
 
