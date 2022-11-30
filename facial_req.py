@@ -11,7 +11,7 @@ import cv2
 
 #Add the important details for Servo Control
 from gpiozero import AngularServo
-servo = AngularServo(18, initial_angle=0, min_pulse_width=0.0006, max_pulse_width=0.0023)
+servo = AngularServo(18, initial_angle=90, min_pulse_width=0.0006, max_pulse_width=0.0023)
 
 #Initialize 'currentname' to trigger only when a new person is identified.
 currentname = "unknown"
@@ -78,11 +78,11 @@ while True:
 				currentname = name
 				print(currentname)
 				
-				#Turn the servo
-				servo.angle = -90
-				time.sleep = 2
+				#Unlocks door lock
 				servo.angle = 90
-
+				time.sleep = 2
+				servo.angle = 0
+				 
 		# update the list of names
 		names.append(name)
 
