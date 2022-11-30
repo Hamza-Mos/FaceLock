@@ -14,7 +14,7 @@ from gpiozero import AngularServo
 servo = AngularServo(18, initial_angle=90, min_pulse_width=0.0006, max_pulse_width=0.0023)
 
 #Initialize 'currentname' to trigger only when a new person is identified.
-currentname = "unknown"
+currentname = "Hamza"
 #Determine faces from encodings.pickle file model created from train_model.py
 encodingsP = "encodings.pickle"
 
