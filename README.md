@@ -1,5 +1,6 @@
+![logo-no-background](https://github.com/Hamza-Mos/FaceLock/assets/85283195/0d7bbdb7-7e12-4216-b809-22a8f9f9f9ba)
+
 # FaceLock: Home Security with Facial Recognition
-<!-- Insert FaceLock Logo Here -->
 
 FaceLock is a home security concept that utilizes facial recognition technology to unlock or lock a door based on the detected faces. This project uses a Raspberry Pi 4 camera, OpenCV's Haar Cascade Classifier model for face detection, and a servo motor-controlled door lock. By integrating these components, FaceLock provides a secure and convenient way to control access to your home.
 
